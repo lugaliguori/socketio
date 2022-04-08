@@ -24,6 +24,7 @@ io.on("connection", socket => {
 
 // Initialize our websocket server on port 5000
 let port = process.env.PORT;
+console.log(port);
 if (port == null || port == "") {
   port = 8000;
 }
